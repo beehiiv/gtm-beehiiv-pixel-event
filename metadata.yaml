@@ -2,5 +2,11 @@ homepage: "https://www.beehiiv.com"
 documentation: "https://developers.beehiiv.com/"
 versions:
   # Latest Version
+  - sha: 346207199f620ecf3e9242a8f2c04bf5551c78c9
+    changeNotes |2:
+      Fix the validation for custom data, namely the `content_ids` array and
+      the `status` boolean.
+
+  # Older Versions
   - sha: b0052a8ec6d48586eb69c35705efa2088dc8fec2
     changeNotes: Initial release with license etc + README.
